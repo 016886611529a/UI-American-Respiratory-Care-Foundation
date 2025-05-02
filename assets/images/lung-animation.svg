@@ -1,0 +1,49 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="respiratory-icon">
+  <defs>
+    <linearGradient id="lung-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1744" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00D4B1" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Trachea and bronchi -->
+  <path class="trachea" d="M150 50L150 120" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <path class="bronchi-left" d="M150 120C130 130, 110 150, 90 180" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  <path class="bronchi-right" d="M150 120C170 130, 190 150, 210 180" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Small branches left -->
+  <path class="branch" d="M90 180C80 190, 70 195, 60 200" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path class="branch" d="M90 180C85 200, 80 220, 75 230" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path class="branch" d="M90 180C100 190, 105 210, 110 220" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Small branches right -->
+  <path class="branch" d="M210 180C220 190, 230 195, 240 200" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path class="branch" d="M210 180C215 200, 220 220, 225 230" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path class="branch" d="M210 180C200 190, 195 210, 190 220" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Terminal bronchioles left -->
+  <circle class="alveoli" cx="60" cy="200" r="10" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="75" cy="230" r="12" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="110" cy="220" r="8" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="85" cy="210" r="7" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="95" cy="195" r="9" fill="url(#lung-gradient)"/>
+  
+  <!-- Terminal bronchioles right -->
+  <circle class="alveoli" cx="240" cy="200" r="10" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="225" cy="230" r="12" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="190" cy="220" r="8" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="215" cy="210" r="7" fill="url(#lung-gradient)"/>
+  <circle class="alveoli" cx="205" cy="195" r="9" fill="url(#lung-gradient)"/>
+  
+  <!-- Lung outlines -->
+  <path class="lung-left" d="M150 120C120 130, 70 150, 50 190C30 230, 40 260, 80 270C120 280, 140 250, 150 220" stroke="white" stroke-width="2" stroke-opacity="0.5" fill="url(#lung-gradient)" fill-opacity="0.2"/>
+  <path class="lung-right" d="M150 120C180 130, 230 150, 250 190C270 230, 260 260, 220 270C180 280, 160 250, 150 220" stroke="white" stroke-width="2" stroke-opacity="0.5" fill="url(#lung-gradient)" fill-opacity="0.2"/>
+  
+  <!-- Floating oxygen particles -->
+  <circle class="oxygen" cx="50" cy="150" r="3" fill="#00D4B1"/>
+  <circle class="oxygen" cx="80" cy="180" r="2" fill="#00D4B1"/>
+  <circle class="oxygen" cx="120" cy="200" r="2.5" fill="#00D4B1"/>
+  <circle class="oxygen" cx="250" cy="150" r="3" fill="#00D4B1"/>
+  <circle class="oxygen" cx="220" cy="180" r="2" fill="#00D4B1"/>
+  <circle class="oxygen" cx="180" cy="200" r="2.5" fill="#00D4B1"/>
+</svg> 

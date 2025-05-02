@@ -1,0 +1,44 @@
+<svg width="1920" height="400" viewBox="0 0 1920 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="400" fill="#0A1744"/>
+  
+  <!-- Background pattern -->
+  <path d="M0 400L1920 350V400H0Z" fill="#00D4B1" fill-opacity="0.3"/>
+  <path d="M0 400L1920 380V400H0Z" fill="#00D4B1" fill-opacity="0.2"/>
+  
+  <!-- Abstract geometric pattern -->
+  <rect x="100" y="50" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="170" y="50" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="240" y="50" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  
+  <rect x="100" y="120" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="170" y="120" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="240" y="120" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  
+  <rect x="100" y="190" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="170" y="190" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="240" y="190" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  
+  <!-- Pattern on right side -->
+  <rect x="1700" y="50" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="1770" y="50" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  
+  <rect x="1700" y="120" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="1770" y="120" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  
+  <rect x="1700" y="190" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="1770" y="190" width="50" height="50" rx="5" fill="#FFFFFF" fill-opacity="0.05"/>
+  
+  <!-- Lung outlines as a subtle background element -->
+  <path d="M960 50C880 100, 800 150, 800 200C800 250, 880 300, 960 320C1040 300, 1120 250, 1120 200C1120 150, 1040 100, 960 50Z" 
+        stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  
+  <!-- Connecting lines -->
+  <path d="M800 200L1120 200" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  <path d="M960 50V320" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  
+  <!-- Small circles representing air sacs -->
+  <circle cx="840" cy="100" r="8" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="840" cy="300" r="8" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="1080" cy="100" r="8" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="1080" cy="300" r="8" fill="#FFFFFF" fill-opacity="0.1"/>
+</svg> 

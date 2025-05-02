@@ -1,0 +1,21 @@
+<svg width="1920" height="600" viewBox="0 0 1920 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="600" fill="#0A1744"/>
+  <path d="M0 600L1920 450V600H0Z" fill="#00D4B1" fill-opacity="0.3"/>
+  <path d="M0 600L1920 500V600H0Z" fill="#00D4B1" fill-opacity="0.2"/>
+  <path d="M0 600L1920 550V600H0Z" fill="#00D4B1" fill-opacity="0.1"/>
+  
+  <!-- Abstract lung pattern -->
+  <path d="M800 150C750 200, 700 250, 700 300C700 350, 750 400, 800 450C850 400, 900 350, 900 300C900 250, 850 200, 800 150Z" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  <path d="M1100 150C1050 200, 1000 250, 1000 300C1000 350, 1050 400, 1100 450C1150 400, 1200 350, 1200 300C1200 250, 1150 200, 1100 150Z" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  
+  <!-- Connecting lines -->
+  <path d="M800 300L1100 300" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  <path d="M950 300C950 260, 950 230, 950 150" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.1" fill="none"/>
+  
+  <!-- Small circles representing air sacs -->
+  <circle cx="800" cy="200" r="10" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="800" cy="400" r="10" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="1100" cy="200" r="10" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="1100" cy="400" r="10" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="950" cy="200" r="10" fill="#FFFFFF" fill-opacity="0.1"/>
+</svg> 
